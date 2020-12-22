@@ -6,6 +6,6 @@ resource "aws_lightsail_instance" "librata-io-wordpress" {
   bundle_id         = "micro_2_2"
   key_pair_name     = "20180301"
   tags = {
-    foo = "bar"
+    name = "librata-io"
   }
 }
